@@ -1,0 +1,11 @@
+<h2>Order Statistics</h2>
+
+<div class="container">
+<div *ngFor="let user of stats">
+    <img [src]="user.icon" class="icon">
+    <div>
+        <p>{{user.label}}</p>
+        <p>{{user.value}}</p>
+    </div>
+</div>
+</div>
